@@ -1,2 +1,2 @@
 # E-commerce
-E-commer in javafx 
+E-commer in java with spring framework
