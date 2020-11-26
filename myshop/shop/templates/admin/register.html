@@ -2,9 +2,9 @@
 
 {% block content %}
 
-<div class="text-center h1">Registro</div>
 <div class="container">
     {% from "_formhelpers.html" import render_field %}
+    <div class="text-center h1">Registro</div>
     <form method="post" enctype="multipart/form-data">
   <div>
     {{ render_field(form.name, class="form-control") }}
@@ -15,7 +15,7 @@
     <input type="file" name="photo">
   </div>
 
-  <p><input type=submit value=Register class="btn btn-info"></p>
+  <p><input type=submit value="Register" class="btn btn-info"></p>
 </form>
 </div>
 
